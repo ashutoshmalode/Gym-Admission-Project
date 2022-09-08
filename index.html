@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Admission System</title>
+
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body{
+        font-family: 'Baloo Bhai';
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/b/b2/A_black_background.jpg");
+    }
+    .left{
+        display: inline;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 5px;
+        top: 9px;
+    }
+    .left img{
+        width: 136px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 12px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 24px 14px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+      color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhai';
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(31, 30, 30);
+    }
+    .container{
+    border: 2px solid white;
+    margin: 150px 35px;
+    padding: 19px;
+    width: 40%;
+    border-radius: 25px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: baloo Bhai;
+    }
+    .container button{
+    display: block;
+    width:20% ;
+    margin:20px auto;
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+         <div class="left">
+             <img src="https://c8.alamy.com/comp/M4N5YJ/fitness-club-or-g…ng-athletic-man-bodybuilder-silhouette-M4N5YJ.jpg" alt="">
+             <div>Ashu's Fitness</div>
+         </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Gym Admission Form</h1>
+        <form action="notation php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email">
+                <input type="text" name="" placeholder="Password">
+                <input type="text" name="" placeholder="Age">
+                <input type="text" name="" placeholder="Gender">
+                <input type="text" name="" placeholder="Locality">
+                <input type="text" name="" placeholder="Phone Number">
+            </div>
+            <button class="btn">submit</button>
+        </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
